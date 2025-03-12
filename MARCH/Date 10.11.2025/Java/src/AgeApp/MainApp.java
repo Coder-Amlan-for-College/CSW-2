@@ -30,6 +30,7 @@ public class MainApp {
 		}
     }
 	  public static void main(String[] args) {
-		
+		 MainApp ag = new MainApp();
+                 ag.initiate();
 	}
 }
