@@ -5,7 +5,7 @@ class UnderAgeException extends Exception{
 	}
 } 
 
-public class OverAgeException extends UnderAgeException{
+public class OverAgeException extends Exception{
 	public String msg() {
 		return "Over Age! Not Eligible";
 	}
