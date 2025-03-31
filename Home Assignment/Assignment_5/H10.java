@@ -28,3 +28,7 @@ public class H10 {
 		}
 	}
 }
+
+// OUTPUT:
+// Diary entries:
+// Hello World
