@@ -13,9 +13,13 @@ public class H11 {
 		 if(file.exists()) {
 			 System.out.println("The file 'diary.txt' already exists. Existing content"+"will not be overwritten. Do you want to append to it? (Y/N)");
 			 String response = sc.nextLine().trim().toUpperCase();
-			 if(response.equals("Y") || response.equals("Yes"))
+			 if(response.equals("Y") || response.equals("Yes")){
+
+			 }
 			 
 		 }
 	 }
+	 catch(Exception e)
+	 {}
 	}
 }

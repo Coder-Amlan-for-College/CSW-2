@@ -10,10 +10,9 @@ public class H6 {
 		char[] ch = str.toCharArray();
 		System.out.print("Enter the character to search: ");
 		char charToSearch = sc.next().charAt(0);
-		charToSearch = Character.toLowerCase(charToSearch);
 		int firstIndex = -1, lastIndex = -1, flag = -1;
 		for (int i = 0; i < ch.length; i++) {
-			if (ch[i] == charToSearch) {
+			if (ch[i] == Character.toLowerCase(charToSearch)) {
 				if (flag == -1) {
 					firstIndex = i;
 					flag = 0;
@@ -33,3 +32,9 @@ public class H6 {
 		sc.close();
 	}
 }
+
+// OUTPUT
+// Enter the String: Alarm
+// Enter the character to search: A
+// First Occurence of Character A is at position: 1
+// Last Occurence of Character A is at position: 3

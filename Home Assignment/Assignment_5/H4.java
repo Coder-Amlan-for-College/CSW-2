@@ -62,3 +62,26 @@ public class H4 {
 		System.out.println("Current String: " + text);
 	}
 }
+
+// OUTPUT
+// Enter the String: Hello
+
+// Text Editor Menu:
+// 1. Add a substring at a specified position.     
+// 2. Remove a range of characters from the string.
+// 3. Modify a character at a specified index      
+// 4. Concatenate another string at the end.       
+// 5. Exit
+// Enter your choice: 4
+// Enter the String:  World
+// Current String: HelloWorld
+
+// Text Editor Menu:
+// 1. Add a substring at a specified position.     
+// 2. Remove a range of characters from the string.
+// 3. Modify a character at a specified index      
+// 4. Concatenate another string at the end.       
+// 5. Exit
+// Enter your choice: 5
+// Exiting..
+// Current String: HelloWorld

@@ -16,5 +16,25 @@ public class H5 {
     String str1Lower = str1.toLowerCase();
     String str2Lower = str2.toLowerCase();
     
+    System.out.println("String Converted to lower case \n"+str1Lower+"\n"+str2Lower);
+    System.out.println("String Converted to upper case \n"+str1Upper+"\n"+str2Upper);
+
+    if(str1Lower.equals(str2Lower)){
+      System.out.println("The given two Strings are equal(case-insensitive comparison)");
+    }
+    else{
+      System.out.println("The given two Strings are not equal(case-insensitive comparison)");
+    }
+    sc.close();
   }
 }
+
+// OUTPUT:
+// Enter the 1st String: Hello
+// Enter the 2nd String: HeLlO
+// String Converted to lower case 
+// hello
+// hello
+// String Converted to upper case
+// HELLO
+// HELLO
