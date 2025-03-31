@@ -38,3 +38,4 @@ public class H5 {
 // String Converted to upper case
 // HELLO
 // HELLO
+//The given two Strings are equal(case-insensitive comparison)
