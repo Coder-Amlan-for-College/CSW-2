@@ -11,10 +11,10 @@ public class H1 {
 		System.out.println("Memory address of str3: "+System.identityHashCode(str3));
 		System.out.println("Memory address of str4: "+System.identityHashCode(str4));
 		System.out.println("Comparison between str1 and str2: "+(str1 == str2));
-		System.out.println("Comparison between str1 and str2: "+(str1 == str3));
+		System.out.println("Comparison between str1 and str3: "+(str1 == str3));
 		System.out.println("Comparison between str3 and str4: "+(str3 == str4));
 		System.out.println("Comparison between str1 and str3 (content): "+(str1.equals(str3)));
-		System.out.println("Comparison between str1 and str3 (content): "+(str3.equals(str4)));
+		System.out.println("Comparison between str3 and str4 (content): "+(str3.equals(str4)));
 	}
 }
 
@@ -24,7 +24,7 @@ public class H1 {
 //	Memory address of str3: 1590550415
 //	Memory address of str4: 1058025095
 //	Comparison between str1 and str2: true
-//	Comparison between str1 and str2: false
+//	Comparison between str1 and str3: false
 //	Comparison between str3 and str4: false
 //	Comparison between str1 and str3 (content): true
-//	Comparison between str1 and str3 (content): true
+//	Comparison between str3 and str4 (content): true
