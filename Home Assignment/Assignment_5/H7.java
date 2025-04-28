@@ -10,7 +10,7 @@ public class H7 {
         String searchWord = sc.next().trim();
         System.out.println("Enter the replacement word: ");
         sc.nextLine();
-        String replaceWord = sc.nextLine().trim();
+        String replaceWord = sc.next().trim();
         String word="";int startIndex = 0; String modified = "";
         for(int i=0;i<sentence.length();i++){
             char ch = sentence.charAt(i);
