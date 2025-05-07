@@ -1,3 +1,9 @@
+/*Create a functional interface Calculator with methods for addition, subtraction,
+multiplication, and division. Implement these methods using lambda expressions.
+Define the Calculator functional interface with methods for arithmetic operations.
+Implement the interface methods using lambda expressions for basic arithmetic
+operations.*/
+
 package Assignment_7;
 
 import java.util.*;

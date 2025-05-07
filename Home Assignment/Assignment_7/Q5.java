@@ -1,3 +1,10 @@
+/*Write a Java program that demonstrates the concept of a function returning another
+function using Java’s Function interface. Define a method that returns a lambda
+function that takes an integer as input and returns its square. In the main method,
+retrieve the returned function and use it to calculate and display the squares of different
+numbers.
+*/
+
 package Assignment_7;
 
 import java.util.function.Function;

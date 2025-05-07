@@ -1,3 +1,8 @@
+/*Write a program that sorts a list of strings based on their lengths in descending order.
+Define a custom comparator using a lambda expression that compares strings based on
+their lengths. Use the custom comparator to sort the list of strings in descending order
+of length.*/
+
 package Assignment_7;
 
 import java.util.ArrayList;
