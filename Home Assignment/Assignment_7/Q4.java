@@ -56,5 +56,5 @@ Area: 16.0
 Rectangle: 
 Enter the length: 4
 Enter the breadth: 3
-Area: 12.0OUTPUT
+Area: 12.0
 */
