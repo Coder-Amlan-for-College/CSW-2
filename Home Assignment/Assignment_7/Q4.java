@@ -15,7 +15,7 @@ interface Shape
         System.out.println("Area: "+area());
     }
 }
-public class H7 {
+public class Q4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Shape circle = ()->{
